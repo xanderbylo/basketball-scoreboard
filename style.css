@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Cursed Timer ULiL';
+    src: url(assets/CursedTimerULiL.woff) format('woff'),
+         url(assets/CursedTimerULiL.ttf) format('truetype');         
+}
+
 body {
     margin: 0;
 }
@@ -11,4 +17,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+h2 {
+    font-family: 'Cursed Timer ULiL';
+}
+
+button {
+    font-family: 'Cursed Timer ULiL';
 }

@@ -24,6 +24,11 @@ function homeAddThree() {
     homeEl.textContent = homeScore;
 }
 
+function guestSubtractOne() {
+    guestScore -= 1;
+    guestEl.textContent = guestScore;
+}
+
 function guestAddOne() {
     guestScore += 1;
     guestEl.textContent = guestScore;
